@@ -20,6 +20,12 @@ if (navClose) {
   });
 }
 
+/*=============== Car Animation ===============*/
+// let start = document.getElementById('home-img');
+// document.getElementById('start').onclick = function () {
+//   start.classList.toggle('fade');
+// };
+
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link');
 
@@ -114,4 +120,30 @@ const scrollActive = () => {
   });
 };
 window.addEventListener('scroll', scrollActive);
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  // reset: true,
+});
+
+sr.reveal('.home__title, .popular__container');
+sr.reveal('.home__subtitle', { delay: 500 });
+sr.reveal('.home__elec', { delay: 600 });
+sr.reveal('.home__img', { delay: 800 });
+sr.reveal('.home__car-data', { delay: 900, interval: 100, origin: 'bottom' });
+sr.reveal('.home__button', { delay: 1000, origin: 'bottom' });
+sr.reveal('.about__group', { origin: 'left' });
+sr.reveal('.about__data', { origin: 'right' });
+sr.reveal('.features__img', { origin: 'bottom' });
+sr.reveal('.features__card-1', { origin: 'left' });
+sr.reveal('.features__card-2', { origin: 'right' });
+sr.reveal('.features__card-3', { origin: 'left' });
+sr.reveal('.featured__item', { interval: 200 });
+sr.reveal('.offer__img', { origin: 'right' });
+sr.reveal('.offer__data', { origin: 'left' });
+sr.reveal('.logos__content', { interval: 300 });
+sr.reveal('.footer__content', { interval: 200 });
