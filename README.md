@@ -7,4 +7,5 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 💙 [Email](omarmajdi115@gmail.com) || [Instagram](https://www.instagram.com/omar_majdi_r/)
+
 ![preview img](/preview.png)
