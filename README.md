@@ -3,7 +3,6 @@
 - Responsive Car website Using HTML CSS & JavaScript.
 - Contains animations when scrolling.
 - Developed first with the Mobile First methodology, then for desktop.
-- Color changable.
 - Compatible with all mobile devices and full responsive on any device.
 - High performance.
 
